@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+.section-one{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.div-left{width: 50%;
+margin-left: 50px;
+padding-right: 50px;
+}
+.div-right{
+    width: 50%;
+    
+}
+.div-left h1 {
+    font-size: 50px;
+}
+.div-left h1 span {
+    color: orange;
+}
+.button-one{
+    border: 0px;
+    padding:20px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, orange,pink);
+    color: white;
+}
+.section-two{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+font-size: 70px;
+}
+.section-three{
+    margin-bottom: 200px;
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    
+}
+.section-three-left{
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    margin-left: 70px;
+    box-shadow: 0px 0px 20px 2px #888888;
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, orange,pink) ;
+    border-image-slice: 1;
+}
+.section-three-right{
+    width: 600px;
+    padding: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    box-shadow: 0px 0px 20px 2px #888888;
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, blue,rgb(155, 245, 248)) ;
+    border-image-slice: 1;
+}
+
+
+
+.section-three-left h1{ font-size: 35px;}
+.section-three-left h3{color: orange;}
+
+footer{
+    text-align: center;margin-bottom: 10px;
+}
